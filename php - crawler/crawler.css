@@ -1,0 +1,26 @@
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center{
+    text-align: center;
+    font-size: 35px;
+}
+
+.frame {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 4px 2px;
+    min-width: 54px;
+    padding: 8px 10px;
+    text-align: center;
+}
