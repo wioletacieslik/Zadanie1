@@ -13,8 +13,8 @@
 </body>
 </html>
 <?php
-$path=$_GET['url'];
 if (isset($_GET['url'])) {
+    $path=$_GET['url'];
     if (!filter_var($path, FILTER_VALIDATE_URL)) {
         echo("$path is not a valid URL");
     }
